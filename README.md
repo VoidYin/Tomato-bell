@@ -9,3 +9,11 @@
 
 
 alias to='function __tomato() { ~/shellproject/tomatoBell/tomato.sh $1 &  unset -f __tomato; }; __tomato'
+
+
+停止番茄钟的方法
+fg 获取后台进程
+ctrl+c 关闭
+
+或者 ps -ef | grep tomato 获取进程id
+kill id
