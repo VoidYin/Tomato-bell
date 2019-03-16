@@ -3,4 +3,6 @@
 使用方法:./tomato.sh [time] &
 默认的时间是25分钟，可以提供其他的时间
 建议在bashrc里面建立这个命令的缩写alias
+
+
 alias to='function __tomato() { ~/shellproject/tomatoBell/tomato.sh $1 &  unset -f __tomato; }; __tomato'
