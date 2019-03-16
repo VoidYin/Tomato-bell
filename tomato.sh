@@ -1,5 +1,4 @@
 #!/bin/sh    
-echo $0
 sleep_min=25
 if [ -n "$1" ];then
     sleep_min=$1
