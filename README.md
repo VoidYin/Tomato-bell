@@ -18,3 +18,7 @@ alias to='~/shellproject/tomatoBell/tomato.sh'
 （二）  
 1.使用ps -ef | grep tomato 获取进程pid  
 2.kill pid  
+
+
+三、依赖  
+显示图片使用的是feh,所以需要先安装feh  
