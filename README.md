@@ -6,8 +6,9 @@
 默认的时间是25分钟
 
 
-建议在bashrc里面建立这个命令的缩写alias，这样可以直接用to 40 或者 to 来使用命令  
-alias to='~/shellproject/tomatoBell/tomato.sh'
+建议在~/.bashrc里面建立这个命令的alias  
+alias to='~/bin/Tomato-Bell/tomato.sh'  
+之后运行命令直接to&即可  
 
 二、停止番茄钟的方法  
 有两种方法：  
