@@ -8,7 +8,9 @@
 
 建议在~/.bashrc里面建立这个命令的alias  
 alias to='~/bin/Tomato-Bell/tomato.sh'  
-之后运行命令直接to&即可  
+之后运行命令  
+source ~/.bashrc  
+to&    
 
 二、停止番茄钟的方法  
 有两种方法：  
