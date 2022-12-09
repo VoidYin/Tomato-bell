@@ -18,6 +18,7 @@ timer1(){
 timer2(){
         sleep $sleeptime2
         pkill -f feh
+        play ${dir}/time.mp3
 }
 
 echo "番茄钟启动 `date +"%Y.%m.%d %T"`"
